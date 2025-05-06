@@ -1,3 +1,50 @@
+# Diretórios de backup
+backup/
+
+# Arquivos gerados por Stow
 *.swp
-*.backup
+*.bak
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios de cache
+.cache/
+.vscode/
+
+# Arquivos de logs
 *.log
+
+# Arquivos de configuração do editor
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos temporários do vim
+*~
+*.swp
+*.swo
+
+# Arquivos de configuração específicos de usuário
+*.user
+
+# Arquivos temporários do sistema operacional
+*.pid
+*.gz
+*.tar
+*.bz2
+*.xz
+
+# Arquivos de cache de compilação
+*.o
+*.out
+*.a
+*.so
+
+# Arquivos temporários de editores
+*.kate-swp
+
+# Arquivos de backup de editores
+*~
+*.bak
